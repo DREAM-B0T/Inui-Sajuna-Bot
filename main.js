@@ -184,10 +184,11 @@ message: {
 },
 "businessOwnerJid": `0@s.whatsapp.net`
 }
-}}})
-await sleep(4000)
-await Fg.blockUser(call, "add")
-})
+}}}).then(() => Fg.blockUser(call, "add"));
+}); 
+
+
+}
 
 /**
  * 
