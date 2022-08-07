@@ -2,7 +2,7 @@
   "name": "Verity",
   "version": "0.0.1",
   "description": "WaBot for Roleplay groups in Spanish",
-  "main": "verity.js",
+  "main": "main.js",
   "directories": {
     "lib": "lib",
   },
