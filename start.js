@@ -10,7 +10,12 @@ CFonts.say('Verity', {
   align: 'center',
   colors: ['magentaBright']
 })
-CFonts.say(`NotCloudss - Verity - DreamCore`, {
+CFonts.say(`- Verity -`, {
+  font: 'console',
+  align: 'center',
+  colors: ['magentaBright']
+})
+CFonts.say(`NotCloudss - DreamCore`, {
   font: 'console',
   align: 'center',
   colors: ['white']
