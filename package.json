@@ -61,6 +61,6 @@
     "start": "node start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "NotCloudss,
+  "author": "NotCloudss",
   "homepage": "https://github.com/DREAM-B0T"
 }
