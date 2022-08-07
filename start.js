@@ -8,7 +8,7 @@ const CFonts  = require('cfonts')
 CFonts.say('Verity', {
   font: 'pallet',
   align: 'center',
-  colors: ['lilac']
+  colors: ['magentaBright']
 })
 CFonts.say(`NotCloudss - Verity - DreamCore`, {
   font: 'console',
