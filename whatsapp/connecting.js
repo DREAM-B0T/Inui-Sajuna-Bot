@@ -28,7 +28,7 @@ const {
   sha256,
   encryptedStream
 } = require('@adiwajshing/baileys')
-const { WAConnection } = require('@adiwajshing/baileys/lib/WAConnection/0.Base')
+const { WAConnection } = require('@adiwajshing/baileys')
 
 exports.WAConnection = _WAConnection => {
   class WAConnection extends _WAConnection {
