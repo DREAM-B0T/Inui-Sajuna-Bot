@@ -220,8 +220,8 @@ function uncache(module = '.') {
         });
         }
 
-require('./index.js');
-nocache('./index.js', module => console.log(color(`Index.js is now updated!`)));
+require('./verity.js');
+nocache('./verity.js', module => console.log(color(`Index.js is now updated!`)));
 
 
 Fg.on('chat-update', async (message) => {
