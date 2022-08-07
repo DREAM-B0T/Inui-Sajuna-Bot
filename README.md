@@ -1,2 +1,2 @@
-# Inui-Sajuna-Bot
+# Verity
 BOT PARA GRUPOS DE ROL EN ESPAÑOL
