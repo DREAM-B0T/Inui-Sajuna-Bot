@@ -1,0 +1,2 @@
+# Inui-Sajuna-Bot
+BOT PARA GRUPOS DE ROL EN ESPAÑOL
