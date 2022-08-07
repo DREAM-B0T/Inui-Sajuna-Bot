@@ -225,7 +225,7 @@ nocache('./verity.js', module => console.log(color(`Index.js is now updated!`)))
 
 
 Fg.on('chat-update', async (message) => {
-require('./index.js')(Fg, message);
+require('./verity.js')(Fg, message);
 });
 
 starts();
