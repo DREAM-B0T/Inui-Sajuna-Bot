@@ -164,11 +164,30 @@ Fg.on("CB:Call", json => {
   let call;
   calling = JSON.parse(JSON.stringify(json));
   call = calling[1].from;
-  Fg.sendMessage(call, `*${Fg.user.name}* No hagas llamadas al bot, tu número se bloqueará automáticamente`, MessageType.text).then(() => Fg.blockUser(call, "add"));
-}); 
-
-
+  Fg.sendMessage(call, `*${Fg.user.name}* No hagas llamadas al Bot, Tu número se bloqueará.`,  MessageType.text, {quoted: {key: {
+fromMe: false,
+participant: `0@s.whatsapp.net`
+},
+message: {
+"productMessage": {
+"product": {
+"productImage":{
+"mimetype": "image/jpeg",
+"jpegThumbnail": fs.readFileSync(`./media/call.png`)
+},
+"title": `No se permiten las llamadas.`,
+"description": "",
+"currencyCode": "SYP",
+"priceAmount1000": "999999999999999999",
+"retailerId": "",
+"productImageCount": 999
+},
+"businessOwnerJid": `0@s.whatsapp.net`
 }
+}}})
+await sleep(4000)
+await Fg.blockUser(call, "add")
+})
 
 /**
  * 
