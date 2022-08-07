@@ -173,7 +173,7 @@ message: {
 "product": {
 "productImage":{
 "mimetype": "image/jpeg",
-"jpegThumbnail": fs.readFileSync(`./media/call.png`)
+"jpegThumbnail": fs.readFileSync(`./src/call.png`)
 },
 "title": `No se permiten las llamadas.`,
 "description": "",
