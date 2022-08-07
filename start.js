@@ -8,12 +8,12 @@ const CFonts  = require('cfonts')
 CFonts.say('Verity', {
   font: 'pallet',
   align: 'center',
-  gradient: ['red', 'magenta']
+  colors: ['lilac']
 })
 CFonts.say(`NotCloudss - Verity - DreamCore`, {
   font: 'console',
   align: 'center',
-  colors: ['lilac']
+  colors: ['white']
 })
 
 var isRunning = false;
