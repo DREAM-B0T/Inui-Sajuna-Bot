@@ -14,3 +14,4 @@ const {
   getCustomBye
 } = require('./functions/welcome')
 const fs = require("fs");
+const thumb = fs.readFileSync('./src/inui.jpg')
