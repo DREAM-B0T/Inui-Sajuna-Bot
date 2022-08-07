@@ -9,3 +9,8 @@ const {
   cekAntidelete,
   cekDetect
 } = require('./functions/group');
+const {
+  getCustomWelcome,
+  getCustomBye
+} = require('./functions/welcome')
+const fs = require("fs");
